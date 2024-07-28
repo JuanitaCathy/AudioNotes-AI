@@ -6,7 +6,7 @@ import { Button } from './ui/button'
 import { Loader } from 'lucide-react'
 import { useAction, useMutation } from 'convex/react'
 import { api } from '@/convex/_generated/api'
-import { v4 as uuidv4 } from 'uuid';
+import { v4 as uuidv4 } from 'uuid'
 import { useToast } from "@/components/ui/use-toast"
 
 import { useUploadFiles } from '@xixixao/uploadstuff/react';
